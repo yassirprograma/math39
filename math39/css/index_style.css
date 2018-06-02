@@ -1,0 +1,332 @@
+*{
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+margin-bottom: 0px; /*    ESTO ES UN ESTILO PARA QUE FUNCIONE BIEN CON LOS NAVEGADORES*/
+padding: 0;
+}
+
+@font-face {
+    font-family: "Guns";
+    src: url(fonts/Guns_n_Flash_Comix.woff) format("truetype");
+}
+
+@font-face {
+    font-family: "Komikax";
+    src: url(fonts/KOMIKAX_.woff) format("truetype");
+}
+
+#arriba{
+
+position: absolute;
+top: 0px;
+left:0px;    /*  PERTENECE AL DOCUMENTO cabeza.html ES EL ESTILO DE LA IMAGEN PRINCIPAL DEL index.php */
+opacity: 0.9;
+z-index: 2;
+
+}
+
+
+/*TODo LO SIGUIENTE PERTENECE A menú.html  pedazo de código que se muestra únicamente en el index-php*/
+#header{
+
+  position: absolute;
+
+  top: 190px;
+  z-index: 2;
+  left:190px;
+}
+
+#header:hover  {
+  transition: all .3s;
+  transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}
+
+
+
+
+
+
+.navegacion{
+  width: 950px;
+  margin: 10px auto;
+  background: #58D8B3;
+  border-radius:10px;
+
+}
+
+.navegacion >ul>li:hover {
+
+  background: #51e0b7;
+  border-radius:10px;
+
+}
+.navegacion >ul>li>ul>li:hover {
+    background: #51e0b7;
+    border-radius:10px;
+
+
+}
+.menu {
+    list-style: none;
+}
+.menu > li{
+  z-index: 1;
+position: relative;
+  display: inline-block;
+  list-style: none;
+}
+.menu>li >a{
+  display: block;
+padding: 13px 20px;
+
+color: rgba(52, 58, 66, 0.79);
+font-family: 'Montserrat Alternates';
+font-size: 18px;
+text-decoration: none;
+}
+
+.menu li a:hover{
+  color:rgba(52, 58, 66, 0.43);
+  transition: all .3s;
+}
+
+
+/*Submenus*/
+.submenu{
+  position: absolute;
+  background:#5DEAC1;
+  width: auto;
+  visibility: hidden;
+
+  transition: opacity 1.5s;
+  list-style: none;
+  border-radius:10px;
+}
+.submenu li a {
+
+  display: block;
+
+  padding: 15px;
+
+  font-family: Montserrat;
+  font-size: 18px;
+color: rgba(52, 58, 66, 0.79);
+  text-decoration: none;
+}
+
+.menu li:hover .submenu{
+
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/*-------------------------AQUÍ TERMINAN LOS ESTILOS DEL MENÚ DEL index.html----------------------------------------*/
+
+
+#contenedor {
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+  position: absolute;
+
+
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background: #000;             /* estilos del cuerpo*/
+	background-size: cover;
+	background-attachment:fixed;
+
+}
+
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+#particles-js {
+	width:100%;
+	height:100%; /*ESTILOS DE LA ANIMACIÓN*/
+	position:fixed;
+	background:rgba(0,0,0,.8);
+  z-index: 0;
+}
+
+
+#arribaestatico{
+
+position: fixed;
+top: 0px;
+left:0px;      /**estilos de la imagen pricupal en las secciones*/
+opacity: 0.9;
+z-index: 2;
+}
+
+#hola{
+
+  position:absolute;
+  z-index: 4;
+  top: 700px; /*BASURA*/
+  left:170px;
+  background: rgb(86, 238, 66);
+  width: 1000px;
+
+}
+
+
+.botonimagen{
+  background-image:url(aljuarismi.jpg);
+  background-repeat:no-repeat;
+  height:100px;   /*BASURA*/
+  width:100px;
+  background-position:center;
+}
+
+
+/* inicia EStilos del cuadro donde se muestran todos los articulos*/
+.principalindex{
+  width: auto;
+  height: auto;
+position: absolute;
+top: 300px;
+left: 5px;
+opacity: 1;
+z-index: 1;
+
+
+}
+.principalindex .articulo {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  left:162px;
+	padding:20px;    /*ESTILOS DEL LUGAR DONDE IRÁ LA INFORMACION*/
+	background:#fff;
+	margin-bottom: 20px;
+  border-radius:10px;
+  font-family:"Komikax";
+}
+.principalindex .articulo p {
+	margin-bottom: 20px;
+	line-height:24px;
+	/*font-family:helvetica, arial, sans-serif;*/
+}
+
+
+
+
+
+    /*ESTILOS DEL PIE DE PÁGINA*/
+.principalindex .final {
+  width: 1335px;
+  height: auto;
+
+
+	padding:20px;
+		background:#a3bab4;
+	margin-bottom: 5px;
+  border-radius:10px;
+}
+.principalindex  .final p {
+	margin-bottom: 20px;
+	line-height:24px;
+	font-family:helvetica, arial, sans-serif;
+}
+/* finaliza EStilos del cuadro donde se muestran todos los articulos*/
+
+
+
+/*ESTILOS DEL LUGAR DONDE SE muestra EL CONTENIDO*/
+
+/* inicia EStilos del cuadro donde se muestran todos los articulos*/
+.princisecc{
+  width: auto;
+  height: auto;
+position: absolute;
+top: 100px;
+left: 5px;
+opacity: 1;
+z-index: 1;
+
+
+}
+.princisecc .articulo {
+  width: 1000px;
+  height: auto;
+  position: relative;
+  left:162px;
+	padding:20px;    /*ESTILOS DEL LUGAR DONDE IRÁ LA INFORMACION*/
+	background:#fff;
+	margin-bottom: 20px;
+  border-radius:10px;
+}
+.princisecc .articulo p {
+	margin-bottom: 20px;
+	line-height:24px;
+	font-family:helvetica, arial, sans-serif;
+}
+
+
+    /*ESTILOS DEL PIE DE PÁGINA*/
+.princisecc .final {
+  width: 1335px;
+  height: auto;
+
+
+	padding:20px;
+	background:#a3bab4;
+	margin-bottom: 5px;
+  border-radius:10px;
+}
+.princisecc  .final p {
+	margin-bottom: 20px;
+	line-height:24px;
+	font-family:helvetica, arial, sans-serif;
+}
+
+
+
+
+
+
+/*FIN DE ESTILOS DEL LUGAR DONDE SE muestra EL CONTENIDO*/
+
+#mensecc{
+  position: fixed;
+  top: 0px;
+  z-index: 2; /*  ESTILOS DEL MENÚ EN LAS SECCIONES*/
+  left:390px;
+  opacity: 0.9;
+
+
+}
+
+
+#mensecc:hover  {
+  transition: all .3s;
+  transform: scale(1.03);
+    -webkit-transform: scale(1.03); /*  ANIMACIÓN DEL MENÚ EN LAS SECCIONES*/
+    -o-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+}
+
+/* ESITLOS DE HASTA ABAJO*/
+#colabora {
+  width: 700px;
+}
+#colabora article {
+
+  font-size: 14px;
+
+}
+
+.imgsecc{
+    opacity: 0.5s;
+}
