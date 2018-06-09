@@ -6,14 +6,7 @@
 
 <title>Curiosidades</title>
 
-<link rel="icon" href="img/hola.ico">
-
-<link rel="stylesheet" href="css/index_style.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<?php include_once("head.php"); ?> <!-- CARGA LASLIBRERIAS JS Y CSS-->
 
 </head>
 
@@ -28,7 +21,11 @@
    <div class="princisecc">
      <article class="articulo">
           <p> <h1>
-              <img src="img/Alge.png" width="150px"  alt=""/>
+              <img src="img/curiosidades.png"    class="imgsecc" />
+              <?php
+              include_once("formulario.html");
+               ?>
+
 
           </h1> </p>
 
@@ -47,7 +44,6 @@
 
 
    </div>
-
 
 
 

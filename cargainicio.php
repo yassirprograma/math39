@@ -3,6 +3,10 @@
 <!-- ESTE ARCHIVO ÚNICAMENTE MANIPULA Y DEBE MANIPULAR A LA PÁGINA DE INICIO (index.php)-->
 
 
+<?php
+ include_once("barralateral.php"); /* CARGA LO INTERACTIVO DE LA ISQUIERDA*/
+ ?>
+
 <!--CARGA MENSAJE MODAL DE BIENVENIDA-->
 <?php
 include_once("bienvenida.html");

@@ -1,5 +1,10 @@
 
+
 <!-- CARGA LA PLANTILLA DE TODAS LAS DEMÁS SECCIONS   -->
+<?php
+ include_once("barralateral.php"); /* CARGA LO INTERACTIVO DE LA ISQUIERDA*/
+ ?>
+
 
 <div id="particles-js"></div> <!--   CARGA EL DIV DONDE IRÁ LA ANIMACIÓN-->
 

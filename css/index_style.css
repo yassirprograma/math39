@@ -39,6 +39,7 @@ z-index: 2;
 
 #header:hover  {
   transition: all .3s;
+  
   transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -o-transform: scale(1.05);
@@ -230,7 +231,7 @@ z-index: 1;
 
 
 	padding:20px;
-		background:#a3bab4;
+		background:#58D8B3;
 	margin-bottom: 5px;
   border-radius:10px;
 }
@@ -281,7 +282,7 @@ z-index: 1;
 
 
 	padding:20px;
-	background:#a3bab4;
+	background:#58D8B3;
 	margin-bottom: 5px;
   border-radius:10px;
 }
@@ -312,6 +313,7 @@ z-index: 1;
 #mensecc:hover  {
   transition: all .3s;
   transform: scale(1.03);
+
     -webkit-transform: scale(1.03); /*  ANIMACIÓN DEL MENÚ EN LAS SECCIONES*/
     -o-transform: scale(1.03);
     -moz-transform: scale(1.03);
@@ -320,13 +322,68 @@ z-index: 1;
 /* ESITLOS DE HASTA ABAJO*/
 #colabora {
   width: 700px;
+  height: auto;
 }
 #colabora article {
-
-  font-size: 14px;
+  font-family:;
+  font-size: 16px;
 
 }
+
+
+
+/*ouodsfnvsdnvoisdnvoisdnviondsovinsdoinvosdnvoisndoilfd*/
+
 #formulario{
   width: 900px;
+
+}
+
+
+.imgsecc{
+width: 500px;
+}
+
+/*formulario*/
+#formi {
+  width: 900px;
+  height: auto;
+}
+
+/*barra lateral*/
+
+
+
+#lateral{
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 170px;
+  left: 30px;
+  z-index: 5;
+
+
+}
+/*juega :hover  {
+  transition: all .3s;
+  transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}*/
+#lateral li {
+  list-style: none;
+}
+
+#lateral  li a p {
+
+color: rgb(150, 159, 151);
+text-align:center;
+  text-decoration: none;
+  list-style: none;
+}
+#lateral li  a img {
+  width: 80px;
+  height: 80px;
 
 }
