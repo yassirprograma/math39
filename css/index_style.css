@@ -39,7 +39,7 @@ z-index: 2;
 
 #header:hover  {
   transition: all .3s;
-  
+
   transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -o-transform: scale(1.05);
@@ -231,7 +231,7 @@ z-index: 1;
 
 
 	padding:20px;
-		background:#58D8B3;
+		background:#a5e6d8;
 	margin-bottom: 5px;
   border-radius:10px;
 }
@@ -239,6 +239,7 @@ z-index: 1;
 	margin-bottom: 20px;
 	line-height:24px;
 	font-family:helvetica, arial, sans-serif;
+  color: rgb(126, 124, 126);
 }
 /* finaliza EStilos del cuadro donde se muestran todos los articulos*/
 
@@ -282,7 +283,7 @@ z-index: 1;
 
 
 	padding:20px;
-	background:#58D8B3;
+	background:#a5e6d8;
 	margin-bottom: 5px;
   border-radius:10px;
 }
@@ -323,13 +324,26 @@ z-index: 1;
 #colabora {
   width: 700px;
   height: auto;
+    border-right: 1px solid rgb(97, 95, 96);
+
 }
 #colabora article {
-  font-family:;
+  f
   font-size: 16px;
+  margin-right: 10px;
 
 }
-
+.ladocolabora {
+position:absolute;
+left: 750px;
+width: auto;
+height: auto;
+}
+.ladocolabora  article{
+  color: rgb(69, 66, 66);
+  font-size: 16px;
+  margin-right: 10px;
+}
 
 
 /*ouodsfnvsdnvoisdnvoisdnviondsovinsdoinvosdnvoisndoilfd*/
@@ -358,19 +372,13 @@ width: 500px;
   width: 80px;
   height: 80px;
   position: fixed;
-  top: 170px;
+  top: 110px;
   left: 30px;
   z-index: 5;
 
 
 }
-/*juega :hover  {
-  transition: all .3s;
-  transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-}*/
+
 #lateral li {
   list-style: none;
 }
